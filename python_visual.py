@@ -12,7 +12,7 @@ import matplotlib.font_manager as fm
 from mpl_toolkits.mplot3d import Axes3D
 
 # 解决中文乱码问题
-myfont = fm.FontProperties(fname="/Library/Fonts/Songti.ttc", size=14)
+myfont = fm.FontProperties(fname="c:/windows/Fonts/msyhl.ttc", size=14)
 matplotlib.rcParams["axes.unicode_minus"] = False
 
 
